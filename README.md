@@ -24,3 +24,7 @@ value, err := defenv.IntStrict("WORKER_NUMBER", 8)
 | string        | String   | -              |
 | uint          | Uint     | UintStrict     |
 | uint64        | Uint64   | Uint64Strict   |
+
+## Docs
+
+See package documentation at <https://godoc.org/github.com/reinventer/defenv> 
