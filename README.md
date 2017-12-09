@@ -1,5 +1,8 @@
 # DefEnv
 
+[![GoDoc](https://godoc.org/github.com/reinventer/defenv?status.svg)](https://godoc.org/github.com/reinventer/defenv)
+[![Build Status](https://travis-ci.org/reinventer/defenv.svg?branch=master)](https://travis-ci.org/reinventer/defenv)
+
 DefEnv is a go package that contains methods for extracting environment variables and converting them to specified types. If there is no environment variable, the default value is used.
 
 There are two types of methods in a package: ordinary and strict. If there is no environment variable, or if a parsing error occurs, ordinary methods return a default value.
